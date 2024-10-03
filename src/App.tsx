@@ -1,16 +1,22 @@
-import './App.css'
-import Advantages from './components/Advantages/Advantages'
-import Intro from './components/Intro/Intro'
-import Remark from './components/Remark/Remark'
+import "./App.css";
+import Advantages from "./components/Advantages/Advantages";
+import FinalAction from "./components/FinalAction/FinalAction";
+import Intro from "./components/Intro/Intro";
+import Monetize from "./components/Monetize/Monetize";
+import Remark from "./components/Remark/Remark";
 
 function App() {
   return (
     <>
-    <Intro></Intro>
-    <Remark></Remark>
-    <Advantages></Advantages>
+      <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 bg-primary-100/20 dark:bg-primary-900/10"></header>
+
+      <Intro></Intro>
+      <Remark></Remark>
+      <Advantages></Advantages>
+      <Monetize></Monetize>
+      <FinalAction></FinalAction>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
