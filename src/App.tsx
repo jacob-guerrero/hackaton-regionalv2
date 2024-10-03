@@ -1,4 +1,5 @@
 import './App.css'
+import Advantages from './components/Advantages/Advantages'
 import Intro from './components/Intro/Intro'
 import Remark from './components/Remark/Remark'
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Intro></Intro>
     <Remark></Remark>
+    <Advantages></Advantages>
     </>
   )
 }
