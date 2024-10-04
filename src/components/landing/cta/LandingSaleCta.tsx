@@ -81,7 +81,7 @@ export const LandingSaleCtaSection = ({
         <div className="mt-6 flex flex-wrap gap-4 w-full items-center">
           {ctaLabel ? (
             <Button size="xl" asChild variant={variant} className="shrink-0">
-              <a href={ctaHref} target="_blank" rel="noopener noreferrer">
+              <a href={ctaHref} rel="noopener noreferrer">
                 {ctaLabel}
               </a>
             </Button>

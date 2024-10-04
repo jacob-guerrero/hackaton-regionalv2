@@ -4,6 +4,7 @@ import { LandingSocialProof } from "@/components/landing/social-proof/LandingSoc
 import { Button } from "@/components/shared/ui/button";
 import { colors } from "@/data/config/colors";
 import { Link } from "react-router-dom";
+import vid1 from "@/assets/vids/vid1.mp4";
 
 export default function Intro() {
   const avatarItems = [
@@ -30,7 +31,7 @@ export default function Intro() {
         controls={false}
         textPosition="center"
         videoPosition="center"
-        videoSrc="https://cache.shipixen.com/features/11-pricing-page-builder.mp4"
+        videoSrc={vid1}
         withBackground
         variant="secondary"
         leadingComponent={

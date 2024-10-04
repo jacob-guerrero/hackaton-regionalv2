@@ -13,6 +13,11 @@ declare module "*.png" {
   export default value;
 }
 
+declare module "*.mp4" {
+  const src: string;
+  export default src;
+}
+
 declare module "@/assets/imgs/assetsManager" {
   const assets: { [key: string]: string };
   export default assets;
