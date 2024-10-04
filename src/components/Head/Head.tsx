@@ -1,6 +1,7 @@
 import { useState } from "react";
 import assets from "@/assets/imgs/assetsManager";
 import { CircleUserRound } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   // Estado para manejar si el menú está abierto en vista móvil (opcional)
@@ -21,9 +22,9 @@ export default function Header() {
 
         {/* Menú de navegación */}
         <nav className="flex gap-4">
-          <a href="#" className="text-black-600 hover:text-black-800">
+          <Link to="/" className="text-black-600 hover:text-black-800">
             Inicio
-          </a>
+          </Link>
           <a href="#" className="text-black-600 hover:text-black-800">
             Noticias
           </a>
@@ -31,9 +32,9 @@ export default function Header() {
             Canjear
           </a>
 
-          <a href="#">
+          <Link to="login">
             <CircleUserRound />
-          </a>
+          </Link>
         </nav>
 
         {/* Botón para abrir el menú en pantallas pequeñas (opcional) */}

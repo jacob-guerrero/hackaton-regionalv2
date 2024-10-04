@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -11,7 +14,8 @@ export default function Login() {
 
     // Placeholder login logic
     if (email === 'user@user.com' && password === 'user') {
-      alert('Login successful!');
+      console.log('Ingreso Exitoso!');
+      navigate("/canjea");
     } else {
       setError('Invalid email or password');
     }
@@ -67,9 +71,9 @@ export default function Login() {
 
         {/* Register Link */}
         <div className="text-center mt-4">
-          <a href="#" className="text-blue-500 hover:underline">
+          <Link to="/register" className='text-blue-500 hover:underline'>
             ¿No tienes una cuenta? Regístrate
-          </a>
+          </Link>
         </div>
       </div>
     </div>
