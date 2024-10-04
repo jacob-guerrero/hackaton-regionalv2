@@ -6,10 +6,10 @@ export default function FinalAction() {
       withBackgroundGlow
       variant="secondary"
       backgroundGlowVariant="secondary"
-      title="Ready to get started?"
-      description="Pre-order today and get a 50% discount on the final price for the first 3 months. No credit card required."
-      ctaHref="https://gum.co/product"
-      ctaLabel="Pre-order for $49"
+      title="¿Estás listo?"
+      description="Únete hoy y empieza a ser parte de las personas ganadoras. ¡No lo pienses más!"
+      ctaHref="#"
+      ctaLabel="Únete Ahora"
     />
   );
 }

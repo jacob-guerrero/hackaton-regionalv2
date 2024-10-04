@@ -1,6 +1,6 @@
-import { LandingMarquee } from '@/components/landing/LandingMarquee';
-import { LandingShowcase } from '@/components/landing/showcase/LandingShowcase';
-import Image from '../shared/Image';
+import { LandingMarquee } from "@/components/landing/LandingMarquee";
+import { LandingShowcase } from "@/components/landing/showcase/LandingShowcase";
+import Image from "../shared/Image";
 
 export default function Monetize() {
   return (
@@ -9,78 +9,79 @@ export default function Monetize() {
         titleComponent={
           <>
             <p className="text-xl font-cursive font-semibold tracking-wider bg-clip-text bg-gradient-to-r text-transparent from-pink-500 via-pink-400 to-pink-500">
-              Monetize
+              Disfruta
             </p>
 
             <h2 className="text-4xl font-semibold leading-tight">
-              Insert ads and earn money
+              Comparte la felicidad con tus seres queridos
             </h2>
           </>
         }
-        description="Easily monetize your videos with our built-in tools. No need for a third-party service."
+        description="“La riqueza no se mide por lo que tienes, sino por lo que compartes.” - Mahatma Gandhi. ¡Compartenos!"
         className="-mb-12"
       />
 
-      <LandingMarquee animationDurationInSeconds={100}>
+      <LandingMarquee animationDurationInSeconds={100} className="max-h-58">
         <Image
-          src="/static/images/backdrop-5.webp"
+          src="src/assets/imgs/imgfin1.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
 
         <Image
-          src="/static/images/backdrop-6.webp"
+          src="src/assets/imgs/imgfin2.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
 
         <Image
-          src="/static/images/backdrop-9.webp"
+          src="src/assets/imgs/imgfin3.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
 
         <Image
-          src="/static/images/backdrop-2.webp"
+          src="src/assets/imgs/imgfin4.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
       </LandingMarquee>
 
       <LandingMarquee
         animationDurationInSeconds={110}
         animationDirection="left"
+        className="max-h-58"
       >
         <Image
-          src="/static/images/backdrop-15.webp"
+          src="src/assets/imgs/imgend1.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
 
         <Image
-          src="/static/images/backdrop-12.webp"
+          src="src/assets/imgs/imgend2.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
 
         <Image
-          src="/static/images/backdrop-14.webp"
+          src="src/assets/imgs/imgend3.jpeg"
           alt="Screenshot of the product"
-          className="w-full h-full object-cover mx-4"
-          width={500}
-          height={500}
+          className="object-cover mx-4"
+          width={300}
+          height={300}
         />
       </LandingMarquee>
     </>

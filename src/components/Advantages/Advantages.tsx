@@ -6,32 +6,35 @@ import { LandingProductFeatureKeyPoints } from "@/components/landing/LandingProd
 export default function Advantages() {
   const keyPoints = [
     {
-      title: "Fast",
+      title: "Rápido",
       description:
-        "Create a video in 30 seconds. Invite, share, or embed it anywhere",
+        "Acumula puntos fácilmente por actualizar tus datos o participar en elecciones.",
     },
     {
-      title: "Efficient",
-      description: "Automate video editing without hassle for you or your team",
+      title: "Eficiente",
+      description:
+        "Realiza pagos puntuales y gana puntos que puedes canjear por premios.",
     },
     {
-      title: "Customizable",
+      title: "Educativo",
       description:
-        "Add effects to make your videos stand out like never before",
+        "Asiste a programas educativos y obtén recompensas adicionales.",
     },
   ];
   const keyPoints2 = [
     {
-      title: "Searchable",
-      description: "Find the perfect clip, every time",
+      title: "Recompensas",
+      description:
+        "Canjea tus puntos por descuentos o beneficios dentro de la cooperativa.",
     },
     {
-      title: "Scalable",
-      description: "Import videos from 20+ platforms",
+      title: "Escalable",
+      description: "Participa más y accede a mejores beneficios a largo plazo.",
     },
     {
-      title: "Shareable",
-      description: "Easily give everyone on your team access",
+      title: "Compartido",
+      description:
+        "Forma parte de una comunidad activa y recibe recomendaciones personalizadas.",
     },
   ];
 
@@ -41,21 +44,21 @@ export default function Advantages() {
         titleComponent={
           <>
             <p className="text-xl font-cursive font-semibold tracking-wider bg-clip-text bg-gradient-to-r text-transparent from-pink-500 via-pink-400 to-pink-500">
-              Create
+              Participa
             </p>
 
             <h2 className="text-4xl font-semibold leading-tight">
-              Specta users create 10x as many videos, at half the cost
+              Gana puntos por cada acción y canjea premios
             </h2>
           </>
         }
         descriptionComponent={
           <>
             <p>
-              Design eye-catching video content with intuitive editing tools you
-              can use anywhere. Invite collaborators, add effects, and share
-              your videos with ease. With Snappy, you'll double your video
-              output.
+              Al participar en los servicios y actividades de COACREMAT, puedes
+              acumular puntos que luego podrás canjear por grandes recompensas.
+              Desde actualizaciones de datos hasta asistencia a programas
+              educativos, cada acción cuenta para obtener beneficios.
             </p>
 
             <LandingProductFeatureKeyPoints
@@ -65,13 +68,11 @@ export default function Advantages() {
             />
 
             <Button className="mt-8" variant="secondary" asChild>
-              <a href="#">Sign up for free</a>
+              <a href="#">¡Empezar a ganar puntos!</a>
             </Button>
-
-            <p className="text-sm">1000 free videos included.</p>
           </>
         }
-        imageSrc="/static/images/backdrop-25.webp"
+        imageSrc="src/assets/imgs/img1.jpg"
         imageAlt="Screenshot of the product"
         imagePosition="right"
         imagePerspective="none"
@@ -84,20 +85,20 @@ export default function Advantages() {
         titleComponent={
           <>
             <p className="text-xl font-cursive font-semibold tracking-wider bg-clip-text bg-gradient-to-r text-transparent from-pink-500 via-pink-400 to-pink-500">
-              Manage
+              Canjea
             </p>
 
             <h2 className="text-4xl font-semibold leading-tight">
-              All your videos in one place
+              Disfruta de los beneficios que has ganado
             </h2>
           </>
         }
         descriptionComponent={
           <>
             <p>
-              No more chaos. One centralized location to manage every video
-              project, whether you have 1 video or 100. Plus, invite your whole
-              team to add, edit, and share content.
+              Alcanza recompensas a medida que acumulas más puntos. Canjea tus
+              puntos por descuentos en productos financieros, acceso a eventos
+              exclusivos o materiales educativos. ¡Cada acción cuenta!
             </p>
             <LandingProductFeatureKeyPoints
               variant="secondary"
@@ -105,11 +106,11 @@ export default function Advantages() {
               className="mt-4"
             />
             <Button className="mt-8" variant="secondary" asChild>
-              <a href="#">Sign up for free</a>
+              <a href="#">¡Canjea tus puntos hoy mismo!</a>
             </Button>
           </>
         }
-        imageSrc="/static/images/backdrop-24.webp"
+        imageSrc="src/assets/imgs/img2.jpeg"
         imageAlt="Screenshot of the product"
         imagePosition="left"
         imagePerspective="none"

@@ -7,24 +7,24 @@ import { colors } from "/data/config/colors";
 export default function Intro() {
   const avatarItems = [
     {
-      imageSrc: "https://picsum.photos/id/64/100/100",
-      name: "John Doe",
+      imageSrc: "https://picsum.photos/id/669/100/100",
+      name: "Alvaro Hernandez",
     },
     {
       imageSrc: "https://picsum.photos/id/65/100/100",
-      name: "Jane Doe",
+      name: "Diego Melo",
     },
     {
-      imageSrc: "https://picsum.photos/id/669/100/100",
-      name: "Alice Doe",
+      imageSrc: "https://picsum.photos/id/64/100/100",
+      name: "Jacob Guerrero",
     },
   ];
 
   return (
     <>
       <LandingPrimaryVideoCtaSection
-        title="Create & edit stunning videos with AI"
-        description="Specta is a revolutionary AI-powered video editing tool that automates the entire video creation process, making it easy to produce professional videos. With no skills required."
+        title="¡Gana puntos al ser parte de COACREMAT!"
+        description="Al usar los productos financieros y participar en actividades educativas de COACREMAT, acumularás puntos que puedes canjear por increíbles premios y beneficios. ¡Cuanto más participes, más ganas!"
         autoPlay
         controls={false}
         textPosition="center"
@@ -34,21 +34,21 @@ export default function Intro() {
         variant="secondary"
         leadingComponent={
           <p className="font-cursive font-semibold tracking-wider bg-clip-text bg-gradient-to-r text-transparent from-pink-500 via-pink-400 to-pink-500">
-            Video Editing and Shorts made Easy
+            Más participación, más puntos, ¡más beneficios!
           </p>
         }
       >
         <div className="w-full mt-6 flex justify-center gap-4">
           <Button size="xl" className="p-7 text-xl" variant="secondary" asChild>
-            <a href="#">Start free today</a>
+            <a href="#">¡Comienza a ganar YA!</a>
           </Button>
         </div>
 
         <LandingSocialProof
           className="w-full mt-6 justify-center"
           showRating
-          numberOfUsers={25000}
-          suffixText="happy editors"
+          numberOfUsers={750}
+          suffixText="asociados ganando beneficios"
           avatarItems={avatarItems}
           size="large"
           disableAnimation
