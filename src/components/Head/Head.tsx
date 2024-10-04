@@ -1,5 +1,5 @@
 import { useState } from "react";
-import assets from "../../assets/imgs/assetsManager";
+import assets from "@/assets/imgs/assetsManager";
 import { CircleUserRound } from "lucide-react";
 
 export default function Header() {

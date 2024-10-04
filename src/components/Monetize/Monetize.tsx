@@ -1,8 +1,8 @@
 import { LandingMarquee } from "@/components/landing/LandingMarquee";
 import { LandingShowcase } from "@/components/landing/showcase/LandingShowcase";
-import Image from "../shared/Image";
+import Image from "@/components/shared/Image";
 
-import assets from "../../assets/imgs/assetsManager";
+import assets from "@/assets/imgs/assetsManager";
 
 export default function Monetize() {
   return (

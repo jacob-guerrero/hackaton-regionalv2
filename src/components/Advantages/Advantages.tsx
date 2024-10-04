@@ -3,7 +3,7 @@ import { Button } from "@/components/shared/ui/button";
 import { LandingProductFeature } from "@/components/landing/LandingProductFeature";
 import { LandingProductFeatureKeyPoints } from "@/components/landing/LandingProductFeatureKeyPoints";
 
-import assets from "../../assets/imgs/assetsManager";
+import assets from "@/assets/imgs/assetsManager";
 
 export default function Advantages() {
   const keyPoints = [
