@@ -9,7 +9,7 @@ import imgfin3 from "./imgfin3.jpeg";
 import imgfin4 from "./imgfin4.jpeg";
 import logo from "./logo.png";
 
-const assets = {
+const assets : { [key: string]: string } = {
     img1,
     img2,
     imgend1,
