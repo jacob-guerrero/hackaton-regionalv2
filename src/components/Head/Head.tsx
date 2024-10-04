@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className=" shadow-md w-full">
+    <header className=" shadow-md w-full bg-opacity-70 sticky top-0 flex h-16 items-center border-b bg-background backdrop-blur-md bg-primary-100/50 dark:bg-primary-900/10 z-50">
       <div className="container mx-auto py-4 flex justify-between items-center">
         {/* Logo o nombre de la app */}
         <div className="flex items-center">
@@ -21,13 +21,13 @@ export default function Header() {
 
         {/* Menú de navegación */}
         <nav className="flex gap-4">
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#" className="text-black-600 hover:text-black-800">
             Inicio
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#" className="text-black-600 hover:text-black-800">
             Noticias
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">
+          <a href="#" className="text-black-600 hover:text-black-800">
             Canjear
           </a>
 
