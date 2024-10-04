@@ -12,11 +12,14 @@ export default function Header() {
       <div className="container mx-auto py-4 flex justify-between items-center">
         {/* Logo o nombre de la app */}
         <div className="flex items-center">
-          <img
-            src={assets.logo}
-            alt="Logo"
-            className="w-8 h-8 mr-2" // Ajusta el tamaño de la imagen según sea necesario
-          />
+          <a href="https://dc78-34-106-214-79.ngrok-free.app">
+            <img
+              src={assets.logo}
+              alt="Logo"
+              className="w-8 h-8 mr-2" // Ajusta el tamaño de la imagen según sea necesario
+            />
+          </a>
+          
           <span className="text-xl font-bold text-gray-800">SmallApp</span>
         </div>
 
