@@ -28,9 +28,9 @@ export default function Header() {
           <a href="#" className="text-black-600 hover:text-black-800">
             Noticias
           </a>
-          <a href="#" className="text-black-600 hover:text-black-800">
+          <Link to="/canjear" className="text-black-600 hover:text-black-800">
             Canjear
-          </a>
+          </Link>
 
           <Link to="login">
             <CircleUserRound />

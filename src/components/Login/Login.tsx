@@ -15,7 +15,7 @@ export default function Login() {
     // Placeholder login logic
     if (email === 'user@user.com' && password === 'user') {
       console.log('Ingreso Exitoso!');
-      navigate("/canjea");
+      navigate("/canjear");
     } else {
       setError('Invalid email or password');
     }

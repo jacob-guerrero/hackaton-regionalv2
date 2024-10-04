@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import Canjear from "./components/Canjear/Canjear";
 
 const routes: RouteObject[] = [
   {
@@ -17,11 +18,11 @@ const routes: RouteObject[] = [
       {
         path: "login",
         element: <Login />,
-      },/* 
+      },
       {
-        path: "canjea",
-        element: <Login />,
-      }, */
+        path: "canjear",
+        element: <Canjear />,
+      },
       {
         path: "register",
         element: <Register />,
