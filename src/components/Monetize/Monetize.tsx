@@ -2,6 +2,8 @@ import { LandingMarquee } from "@/components/landing/LandingMarquee";
 import { LandingShowcase } from "@/components/landing/showcase/LandingShowcase";
 import Image from "../shared/Image";
 
+import assets from "../../assets/imgs/assetsManager";
+
 export default function Monetize() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Monetize() {
 
       <LandingMarquee animationDurationInSeconds={100} className="max-h-58">
         <Image
-          src="src/assets/imgs/imgfin1.jpeg"
+          src={assets.imgfin1}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -31,7 +33,7 @@ export default function Monetize() {
         />
 
         <Image
-          src="src/assets/imgs/imgfin2.jpeg"
+          src={assets.imgfin2}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -39,7 +41,7 @@ export default function Monetize() {
         />
 
         <Image
-          src="src/assets/imgs/imgfin3.jpeg"
+          src={assets.imgfin3}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -47,7 +49,7 @@ export default function Monetize() {
         />
 
         <Image
-          src="src/assets/imgs/imgfin4.jpeg"
+          src={assets.imgfin4}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -61,7 +63,7 @@ export default function Monetize() {
         className="max-h-58"
       >
         <Image
-          src="src/assets/imgs/imgend1.jpeg"
+          src={assets.imgend1}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -69,7 +71,7 @@ export default function Monetize() {
         />
 
         <Image
-          src="src/assets/imgs/imgend2.jpeg"
+          src={assets.imgend2}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}
@@ -77,7 +79,7 @@ export default function Monetize() {
         />
 
         <Image
-          src="src/assets/imgs/imgend3.jpeg"
+          src={assets.imgend3}
           alt="Screenshot of the product"
           className="object-cover mx-4"
           width={300}

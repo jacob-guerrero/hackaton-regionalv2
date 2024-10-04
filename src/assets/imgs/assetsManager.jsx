@@ -7,6 +7,7 @@ import imgfin1 from "./imgfin1.jpeg";
 import imgfin2 from "./imgfin2.jpeg";
 import imgfin3 from "./imgfin3.jpeg";
 import imgfin4 from "./imgfin4.jpeg";
+import logo from "./logo.png";
 
 const assets = {
     img1,
@@ -18,6 +19,7 @@ const assets = {
     imgfin2,
     imgfin3,
     imgfin4,
+    logo,
 };
 
 export default assets;

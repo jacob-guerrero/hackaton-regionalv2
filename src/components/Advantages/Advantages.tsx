@@ -3,6 +3,8 @@ import { Button } from "@/components/shared/ui/button";
 import { LandingProductFeature } from "@/components/landing/LandingProductFeature";
 import { LandingProductFeatureKeyPoints } from "@/components/landing/LandingProductFeatureKeyPoints";
 
+import assets from "../../assets/imgs/assetsManager";
+
 export default function Advantages() {
   const keyPoints = [
     {
@@ -72,7 +74,7 @@ export default function Advantages() {
             </Button>
           </>
         }
-        imageSrc="src/assets/imgs/img1.jpg"
+        imageSrc={assets.img1}
         imageAlt="Screenshot of the product"
         imagePosition="right"
         imagePerspective="none"
@@ -110,7 +112,7 @@ export default function Advantages() {
             </Button>
           </>
         }
-        imageSrc="src/assets/imgs/img2.jpeg"
+        imageSrc={assets.img2}
         imageAlt="Screenshot of the product"
         imagePosition="left"
         imagePerspective="none"
