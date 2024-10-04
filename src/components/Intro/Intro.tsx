@@ -2,7 +2,7 @@ import { LandingPrimaryVideoCtaSection } from "@/components/landing/cta/LandingP
 import { LandingSocialProof } from "@/components/landing/social-proof/LandingSocialProof";
 
 import { Button } from "@/components/shared/ui/button";
-import { colors } from "/data/config/colors";
+import { colors } from "@/data/config/colors";
 
 export default function Intro() {
   const avatarItems = [
