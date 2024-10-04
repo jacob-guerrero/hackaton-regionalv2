@@ -8,10 +8,10 @@ export default function Login() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError('');
-
+  
     // Placeholder login logic
     if (email === 'user@user.com' && password === 'user') {
       console.log('Ingreso Exitoso!');
