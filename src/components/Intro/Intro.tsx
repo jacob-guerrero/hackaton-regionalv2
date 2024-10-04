@@ -3,6 +3,7 @@ import { LandingSocialProof } from "@/components/landing/social-proof/LandingSoc
 
 import { Button } from "@/components/shared/ui/button";
 import { colors } from "@/data/config/colors";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
   const avatarItems = [
@@ -40,7 +41,7 @@ export default function Intro() {
       >
         <div className="w-full mt-6 flex justify-center gap-4">
           <Button size="xl" className="p-7 text-xl" variant="secondary" asChild>
-            <a href="#">¡Comienza a ganar YA!</a>
+            <Link to="login">¡Comienza a ganar YA!</Link>
           </Button>
         </div>
 

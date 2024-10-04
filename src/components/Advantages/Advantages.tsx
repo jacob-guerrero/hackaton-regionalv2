@@ -4,6 +4,7 @@ import { LandingProductFeature } from "@/components/landing/LandingProductFeatur
 import { LandingProductFeatureKeyPoints } from "@/components/landing/LandingProductFeatureKeyPoints";
 
 import assets from "@/assets/imgs/assetsManager";
+import { Link } from "react-router-dom";
 
 export default function Advantages() {
   const keyPoints = [
@@ -70,7 +71,7 @@ export default function Advantages() {
             />
 
             <Button className="mt-8" variant="secondary" asChild>
-              <a href="#">¡Empezar a ganar puntos!</a>
+              <Link to="login">¡Empezar a ganar puntos!</Link>
             </Button>
           </>
         }
@@ -108,7 +109,7 @@ export default function Advantages() {
               className="mt-4"
             />
             <Button className="mt-8" variant="secondary" asChild>
-              <a href="#">¡Canjea tus puntos hoy mismo!</a>
+              <Link to="login">¡Canjea tus puntos hoy mismo!</Link>
             </Button>
           </>
         }

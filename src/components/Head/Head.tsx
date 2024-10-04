@@ -19,8 +19,10 @@ export default function Header() {
               className="w-8 h-8 mr-2" // Ajusta el tamaño de la imagen según sea necesario
             />
           </a>
-          
-          <span className="text-xl font-bold text-gray-800">SmallApp</span>
+
+          <a href="https://lookerstudio.google.com/reporting/461a9768-48d0-4dc4-abdc-628efe3b375c">
+            <span className="text-xl font-bold text-gray-800">SmallApp</span>
+          </a>
         </div>
 
         {/* Menú de navegación */}

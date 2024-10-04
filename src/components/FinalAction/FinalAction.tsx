@@ -8,7 +8,7 @@ export default function FinalAction() {
       backgroundGlowVariant="secondary"
       title="¿Estás listo?"
       description="Únete hoy y empieza a ser parte de las personas ganadoras. ¡No lo pienses más!"
-      ctaHref="#"
+      ctaHref="login"
       ctaLabel="Únete Ahora"
     />
   );
